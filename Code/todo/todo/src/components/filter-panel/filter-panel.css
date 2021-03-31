@@ -1,0 +1,9 @@
+.btn-filter:active, .btn-filter:hover, .btn-filter:focus {
+    background-color: #4285F4 !important;
+}
+.btn-filter-active {
+    background-color: #4285F4 !important;
+}
+.btn-filter-disabled {
+    background-color: #7cb3f8 !important;
+}

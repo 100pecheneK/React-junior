@@ -1,0 +1,76 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    font-family: "starwars", Helvetica, Arial, sans-serif;
+}
+
+.img {
+    width: 200px;
+}
+
+h1 {
+    color: white;
+}
+
+b {
+    font-weight: bold;
+}
+
+button,
+nav .list-group-item {
+    z-index: 0;
+    color: rgb(192, 192, 192) !important;
+    transition: 0.4s;
+}
+
+button:hover,
+nav .list-group-item:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 1;
+    border: white solid 1px !important;
+    color: white !important;
+}
+
+button:active,
+nav .list-group-item:active {
+    transform: scale(0.9);
+}
+
+.navbar-nav .list-group-item:first-child {
+    border-radius: .25rem 0 0 .25rem;
+}
+
+.navbar-nav .list-group-item:last-child {
+    border-radius: 0 .25rem .25rem 0;
+}
+
+/*Стили для страницы людей стандартные */
+body {
+    background-image: url(../img/people.jpg);
+}
+
+/*!* Стили для страницы планет *!*/
+/*body {*/
+/*    background-image: url(../img/planet.jpg);*/
+/*}*/
+/*.elegant-color-dark {*/
+/*    background-color: #424242 !important;*/
+/*}*/
+/*.elegant-color {*/
+/*    background-color: #616161 !important;*/
+/*}*/
+
+/*!* Стили для страниц с кораблями *!*/
+/*body {*/
+/*    background-image: url(../img/starship.jpg);*/
+/*}*/
+/*.elegant-color-dark {*/
+/*    background-color: #434c58 !important;*/
+/*}*/
+
+/*.elegant-color {*/
+/*    background-color: #525d6b !important;*/
+/*}*/

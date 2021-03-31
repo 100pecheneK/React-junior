@@ -1,0 +1,8 @@
+.search-panel {
+    border: 1px solid #212121;
+}
+.search-panel:active, .search-panel:active:focus, .search-panel:focus, .search-panel:hover {
+    /*border-color: #212121!important;*/
+    /*background-color: transparent!important;*/
+    color: #212121!important;
+}

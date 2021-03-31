@@ -1,0 +1,33 @@
+.todo-list-item {
+    color: #212121;
+}
+
+.done, .done:active, .done:hover, .done:focus {
+    text-decoration: line-through;
+}
+
+.important {
+    color: #007bff !important;
+    font-weight: bold;
+}
+
+/**/
+input[type="checkbox"]{
+  display: none;
+}
+label {
+  padding-left: 20px;
+}
+label::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  vertical-align: middle;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+input[type="checkbox"]:checked + label::before {
+  background-color: red;
+}
